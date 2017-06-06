@@ -1,4 +1,4 @@
-.idea
-node_module
-bower_component
-.vscode
+/.idea
+/node_modules
+/bower_component
+/.vscode
