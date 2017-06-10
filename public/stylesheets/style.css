@@ -36,6 +36,18 @@ p{
 	margin:0;
 }
 
+.postText pre {
+    overflow: hidden;
+    white-space: pre-wrap;
+}
+
+.post img{
+    display: block;
+	width:200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
 nav{
 	background:#404137;
 	color:#fff;
@@ -82,6 +94,7 @@ a.more{
 .post{
 	border-bottom:1px solid #ccc;
 	padding-bottom:20px;
+    width: 100%;
 }
 
 .post h1 a{
@@ -112,4 +125,21 @@ select{
 textarea{
 	height:70px;
 	width:400px;
+}
+
+.img {
+	width: 10px;
+	height: 60px;
+}
+
+ul.success li{
+	padding: 15px;
+	margin-top:10px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	list-style:none;
 }
